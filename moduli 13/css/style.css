@@ -1,0 +1,45 @@
+/*ul{
+    list-style-type: circle;
+}
+
+ul{
+    list-style-image: url(../img/imagesssss.png);
+}
+
+ol{
+    list-style-type: lower-roman;
+}
+*/
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid rgb(189, 189, 189);
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #eee;
+    padding: 15px;
+}
+
+tbody tr:nth-child(even){
+   background-color: aqua;
+}
+
+tbody tr:nth-child(odd){
+   background-color: rgb(150, 194, 194);
+}
+
+div{
+    overflow: scroll;
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+}
