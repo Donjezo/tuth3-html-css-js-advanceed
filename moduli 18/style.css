@@ -1,0 +1,33 @@
+#bmw1 img{
+    transform: scale(1);
+    transition: .9s ease-in-out;
+}
+
+#bmw1:hover img{
+    transform: scale(2.9);
+}
+
+#bmw2 img{
+    margin-left: 0;
+    transition: 1.9s ease-in-out;
+}
+#bmw2:hover img{
+    margin-left: 90px;
+}
+
+#bmw3 img{
+    filter: blur(3px);
+
+    transition: 1.9s ease-in-out ;
+}
+#bmw3:hover img{
+    filter: blur(0);
+    transform: scale(2.9);
+}
+#bmw4 img{
+    filter: grayscale(100%);
+    transition: 1.9s ease-in-out;
+}
+#bmw4:hover img{
+    filter:grayscale(0%);
+}
