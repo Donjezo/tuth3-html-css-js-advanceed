@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    background:rgb(160, 126, 126)
+}
+.container div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+.container div:nth-child(2){
+    order: 3;
+}
+.container2{
+    display: flex;
+    background: rgb(161, 37, 37);
+    flex-direction: column;
+}
+.container2 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container3{
+    display: flex;
+    background: rgb(22, 22, 129);
+    flex-direction: column-reverse;
+}
+.container3 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container4{
+    display: flex;
+    background: rgb(22, 22, 129);
+    flex-direction: row;
+}
+.container4 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+.container4 div:nth-child(4){
+    flex-grow: 4;
+}
+
+.container5{
+    display: flex;
+    background: rgb(21, 162, 167);
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container5 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container6{
+    display: flex;
+    background: rgb(21, 162, 167);
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+.container6 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.container7{
+    display: flex;
+    background: rgb(21, 162, 167);
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.container7 div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
