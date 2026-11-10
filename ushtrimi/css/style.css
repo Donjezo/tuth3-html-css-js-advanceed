@@ -1,0 +1,384 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #f5f5f5 !important;
+    padding: 40px 5%;
+}
+
+/* FOUR WEBSITE PREVIEWS */
+.website-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.website {
+    width: 100%;
+    min-width: 0;
+}
+
+.page-label {
+    color: #aaa;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+/* MAIN NAVY BACKGROUND */
+.page {
+    width: 100%;
+    min-height: 380px;
+    background-color: #001b29 !important;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+/* NAVIGATION BAR */
+nav {
+    width: 100%;
+    height: 42px;
+    background-color: #001b29 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 13px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.logo {
+    color: #f4c9a9;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+.logo span {
+    display: block;
+    font-size: 5px;
+    letter-spacing: 2px;
+    color: #b5c5c7;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #c5d4d4;
+    font-size: 7px;
+}
+
+.nav-links a:hover {
+    color: #a7f2dc;
+}
+
+/* MINT BUTTON */
+button {
+    background-color: #a7f2dc !important;
+    color: #001b29 !important;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-size: 7px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ORANGE HERO BACKGROUND */
+.hero {
+    width: 100%;
+    background-color: #80250f !important;
+    padding: 24px 15px 22px;
+    min-height: 95px;
+}
+
+.hero h1 {
+    color: #fffaf4;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.hero p {
+    color: #f4d4c5;
+    font-size: 8px;
+    line-height: 1.5;
+}
+
+/* CARDS */
+.car-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    padding: 0 12px;
+}
+
+.car-card {
+    background: #fff4e9 !important;
+    color: #172b30;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.car-card img {
+    width: 100%;
+    height: 95px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-content {
+    padding: 9px;
+}
+
+.card-content h3 {
+    font-size: 9px;
+    margin-bottom: 5px;
+}
+
+.card-content p {
+    color: #687477;
+    font-size: 7px;
+    margin-bottom: 9px;
+}
+
+.card-content a {
+    color: #a34224;
+    text-decoration: none;
+    font-size: 7px;
+    font-weight: bold;
+}
+
+/* ABOUT SECTION */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 12px;
+    align-items: center;
+}
+
+.about-text h3 {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.about-text p {
+    font-size: 7px;
+    line-height: 1.7;
+    color: #e0c9bc;
+    margin-bottom: 7px;
+}
+
+.about-content img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.section-heading {
+    font-size: 11px;
+    padding: 8px 12px;
+}
+
+/* VALUES AND FINANCE CARDS */
+.values-grid,
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7px;
+    padding: 12px;
+}
+
+.value-card,
+.step-card {
+    background: #fff4e9 !important;
+    color: #172b30;
+    border-radius: 4px;
+    padding: 10px 8px;
+}
+
+.value-card span,
+.step-card span {
+    color: #a34224;
+    font-size: 8px;
+    font-weight: 800;
+}
+
+.value-card h3,
+.step-card h3 {
+    font-size: 8px;
+    margin: 7px 0;
+}
+
+.value-card p,
+.step-card p {
+    color: #687477;
+    font-size: 7px;
+    line-height: 1.5;
+}
+
+/* FINANCING */
+.finance-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px 12px;
+}
+
+.finance-bottom h3 {
+    font-size: 10px;
+    margin-bottom: 7px;
+}
+
+.finance-bottom p {
+    font-size: 7px;
+    color: #c5d4d4;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.dark-card {
+    background: #002b3a !important;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.dark-card h3 {
+    font-size: 9px;
+}
+
+/* CONTACT FORM */
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1.5fr .8fr;
+    gap: 12px;
+    padding: 12px;
+}
+
+.contact-form {
+    background: #fff4e9 !important;
+    color: #172b30;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.contact-form h3 {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 6px;
+    border: 1px solid #e2ddd6;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 7px;
+    background: white;
+}
+
+textarea {
+    height: 65px;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    background: #001b29 !important;
+    color: white !important;
+}
+
+.contact-info img {
+    width: 100%;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.contact-info h3 {
+    font-size: 9px;
+    margin-bottom: 8px;
+}
+
+.contact-info p {
+    font-size: 7px;
+    color: #c5d4d4;
+    margin-bottom: 7px;
+}
+
+/* BOTTOM CONTENT */
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 13px;
+    gap: 10px;
+}
+
+.bottom-section h3 {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.bottom-section p {
+    font-size: 7px;
+    color: #c5d4d4;
+}
+
+/* FOOTER */
+footer {
+    color: #9aafb0;
+    font-size: 6px;
+    padding: 12px;
+    border-top: 1px solid rgba(255,255,255,.15);
+    margin-top: 8px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 750px) {
+    .website-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.website-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.website {
+    width: 100%;
+}
+
+.page {
+    width: 100%;
+    min-height: 600px;
+}
