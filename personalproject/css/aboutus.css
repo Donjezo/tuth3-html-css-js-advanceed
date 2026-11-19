@@ -1,23 +1,119 @@
-.about {
+body{
+    background: #f5f5f5;
+    color: #222;
+}
+
+header{
+   
     background: #111;
+    
+    color: white;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2{
+    letter-spacing: 2px;  
+}
+
+header span{
+    color: #B15E6C;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.about-page {
+    min-height: 700px;
+
+    padding: 80px 12%;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+        url(https://www.stuttcars.com/wp-content/uploads/2023/09/Porsche-911-GT3-RS-Rennsport-05.jpg);
+
+    background-size: cover;
+
+    background-position: center;
 
     color: white;
+}
 
-    padding: 70px 15%;
+.about-boxes {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+
+.about-boxes div {
+    width: 250px;
+
+    background: rgba(255, 255, 255, 0.1);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    padding: 30px 20px;
+
+    border-radius: 8px;
+}
+
+
+.about-boxes h2 {
+    color: #d4a017;
+
+    margin-bottom: 12px;
+}
+
+
+.about-boxes p {
+    color: #ddd;
+}
+
+.about-content {
+    max-width: 1000px;
+
+    margin: auto;
 
     text-align: center;
 }
 
-.about h2 {
-    font-size: 35px;
 
-    margin-bottom: 25px;
+.about-content h1 {
+    font-size: 45px;
+
+    margin-bottom: 30px;
 }
 
-.about p {
+
+.about-content > p {
     font-size: 17px;
 
     line-height: 1.8;
 
     color: #ddd;
+
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
 }

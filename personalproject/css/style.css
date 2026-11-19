@@ -17,7 +17,7 @@ header h2{
 }
 
 header span{
-    color: #d4a017;
+    color: #B15E6C;
 }
 
 nav a{
@@ -49,11 +49,17 @@ nav a{
 }
 .btn {
     display: inline-block;
-    background: #d4a017;
+    background: #B15E6C;
     color: white;
     padding: 14px 25px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
     transition: 0.3s;
+}
+footer {
+    background: #B15E6C;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
 }

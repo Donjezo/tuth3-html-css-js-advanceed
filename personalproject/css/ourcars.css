@@ -17,7 +17,7 @@ header h2{
 }
 
 header span{
-    color: #d4a017;
+    color: #B15E6C;
 }
 
 nav a{
@@ -35,6 +35,26 @@ nav a{
 .cars > h2 {
     font-size: 35px;
     margin-bottom: 40px;
+    color: #B15E6C;
+}
+
+.cars {
+    min-height: 700px;
+
+    padding: 80px 12%;
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0.75)
+        ),
+        url(https://t4.ftcdn.net/jpg/04/69/23/19/360_F_469231916_yBXAlwxLVTAvJ5JkyE2PdnjCOXUp2wwE.jpg);
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: black;
 }
 
 .car-container {
@@ -45,7 +65,7 @@ nav a{
 }
 
 .car {
-    background: white;
+    background: #B15E6C;
     width: 300px;
     padding: 30px;
     border-radius: 10px;
@@ -63,7 +83,7 @@ nav a{
 }
 
 .car p {
-    color: #666;
+    color: #000F08;
     margin-bottom: 20px;
 }
 
